@@ -1,0 +1,23 @@
+{
+    "name": "Backup",
+    "executeable": "backup.sh",
+    "type": "shell",
+    "parameters":[
+        {
+            "name": "VM container id",
+            "datatype": "int"
+        },
+        {
+            "name": "Ip Address",
+            "datatype": "string"
+        },
+        {
+            "name": "Storage",
+            "datatype": "string"
+        },
+        {
+            "name": "SSH key",
+            "datatype": "string"
+        }
+    ]
+}
